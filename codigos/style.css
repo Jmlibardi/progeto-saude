@@ -54,6 +54,10 @@ section#bloco-apresentação{
     height: 150px;
     background-color: var(--cor04);
     padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0px;
+    
 }
 
 .apresentação > h2{
@@ -61,7 +65,20 @@ section#bloco-apresentação{
 }
 
 .apresentação li{
+    list-style-position: inside;
+    padding: 1px;
+}
 
+.apresentação a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.apresentação a:hover{
+    color: var(--cor01);
+    text-decoration: underline;
+    font-size: 19px;
 }
 
 footer{
@@ -72,4 +89,15 @@ footer{
 footer > p{
     color: white;
     text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: var(--cor04);
+    text-decoration: underline;
 }
