@@ -28,6 +28,11 @@ header{
     margin-bottom: 30px;
 }
 
+section#logo{
+    display: flex;
+    align-items: center;
+}
+
 header a{
     color: white;
     text-decoration: none;
