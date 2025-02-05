@@ -44,15 +44,24 @@ header a:hover{
     color: var(--cor01);
 }
 
-section#apresentação{
+section#bloco-apresentação{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.apresentação{
     width: 500px;
     height: 150px;
     background-color: var(--cor04);
     padding: 10px;
 }
 
-section#apresentação > h2{
+.apresentação > h2{
     padding-bottom: 10px;
+}
+
+.apresentação li{
+
 }
 
 footer{
