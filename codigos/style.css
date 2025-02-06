@@ -52,6 +52,13 @@ header > nav > a:hover{
     color: var(--cor01);
 }
 
+@media(max-width:520px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 section#bloco-apresentação{
     display: flex;
     justify-content: space-evenly;
@@ -61,7 +68,7 @@ section#bloco-apresentação{
 
 .apresentação{
     width: 450px;
-    height: 180px;
+    height: 200px;
     background-color: var(--cor04);
     padding-bottom: 30px;
     border-radius: 5px;
@@ -201,4 +208,18 @@ footer a:hover{
     color: var(--cor04);
     text-decoration: underline;
     font-size: 1.1em;
+}
+
+@media(max-width:780px){
+    section#bloco-rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #x{
+        display: flex;
+        justify-content: center;
+    }
 }
