@@ -27,21 +27,25 @@ header{
     margin-bottom: 30px;
 }
 
-section#logo{
+nav{
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav:hover{
     align-items: center;
 }
 
-header a{
+header > nav > a{
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
-    padding-right: 15px;
     font-family: var(--fonte-padrao);
 }
 
-header a:hover{
+header > nav > a:hover{
     background-color: var(--cor04);
     padding: 10px;
     border-radius: 5px;
@@ -56,7 +60,7 @@ section#bloco-apresentação{
 }
 
 .apresentação{
-    width: 500px;
+    width: 450px;
     height: 180px;
     background-color: var(--cor04);
     padding-bottom: 30px;
@@ -66,7 +70,7 @@ section#bloco-apresentação{
 }
 
 .apresentação h2{
-    background-color: #1081C7;
+    background-color: var(--cor02);
     padding: 10px;
     border-radius: 5px 5px 0px 0px;
     text-align: center;
@@ -140,7 +144,7 @@ div#imagem-01{
 }
 
 div#imagem-02{
-    background-image: url(imagens/imagem002-400.jpg);
+    background-image: url(imagens/imagem001-400.jpg);
     width: 400px;
     height: 236px;
 }
@@ -170,8 +174,15 @@ div#imagem-03{
 }
 
 footer{
-    background-color: black;
+    background-color: var(--cor02);
     margin-top: 30px;
+}
+
+section#bloco-rodape{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
 }
 
 footer > p{
