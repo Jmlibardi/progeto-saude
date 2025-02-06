@@ -87,6 +87,7 @@ section#bloco-apresentação{
 .apresentação li{
     list-style-position: inside;
     padding: 1px;
+    font-size: 1.2em;
 }
 
 .apresentação a{
@@ -98,7 +99,7 @@ section#bloco-apresentação{
 .apresentação a:hover{
     color: var(--cor01);
     text-decoration: underline;
-    font-size: 19px;
+    font-size: 21px;
 }
 
 div#bloco-imagem{
