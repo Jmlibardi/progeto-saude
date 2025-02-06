@@ -16,7 +16,6 @@
 
 p{
     font-family: var(--fonte-padrao);
-    text-align: justify;
 }
 
 header{
@@ -52,6 +51,8 @@ header a:hover{
 section#bloco-apresentação{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .apresentação{
@@ -69,35 +70,18 @@ section#bloco-apresentação{
     padding: 10px;
     border-radius: 5px 5px 0px 0px;
     text-align: center;
-}
-
-.apresentação p,ul{
-    padding: 10px;
-}
-
-@media(max-width: 1100px){
-    section#bloco-apresentação{
-        display: block;
-    }
-}
-
-@media(max-width: 1100px){
-    .apresentação{
-        margin: auto;
-        margin-bottom: 20px;
-    }
-}
-
-@media(max-width: 550px){
-    .apresentação{
-        width: 450px;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-}
-
-.apresentação > h2{
     padding-bottom: 10px;
+}
+
+.apresentação p{
+    padding: 10px;
+    text-align: justify;
+}
+
+.apresentação  ul{
+    columns: 2;
+    margin-top: 15px;
+    padding: 10px;
 }
 
 .apresentação li{
@@ -115,6 +99,77 @@ section#bloco-apresentação{
     color: var(--cor01);
     text-decoration: underline;
     font-size: 19px;
+}
+
+div#bloco-imagem{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 10px;
+    background-color: var(--cor01);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.estilo-imagem{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.estilo-imagem h3{
+    text-align: center;
+    padding-top: 190px;
+    font-size: 2em;
+}
+
+.estilo-imagem p{
+    padding: 20px;
+    text-align: center;
+}
+
+div#imagem-01{
+    background-image: url(imagens/imagem003-400.jpg);
+    width: 400px;
+    height: 236px;
+}
+
+div#imagem-02{
+    background-image: url(imagens/imagem002-400.jpg);
+    width: 400px;
+    height: 236px;
+}
+
+div#imagem-03{
+    background-image: url(imagens/imagem002-400.jpg);
+    width: 400px;
+    height: 236px;
+}
+
+.alinhamento-link{
+    text-align: center;
+    margin-top: 30px;
+    background-color: var(--cor02);
+    width: 200px;
+    margin-left: 87px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alinhamento-link:hover{
+    background-color: var(--cor04);
+}
+
+.alinhamento-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.alinhamento-link a:hover{
+    color: black;
 }
 
 footer{
