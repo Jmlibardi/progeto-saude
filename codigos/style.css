@@ -218,6 +218,10 @@ footer a:hover{
         gap: 20px;
     }
 
+    img{
+        margin-left: 25px;
+    }
+
     #x{
         display: flex;
         justify-content: center;
