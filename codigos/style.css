@@ -114,6 +114,12 @@ section#bloco-apresentação{
     font-size: 21px;
 }
 
+@media(max-width:470px){
+    section#bloco-apresentação{
+        width: 300px;
+    }
+}
+
 div#bloco-imagem{
     display: flex;
     justify-content: space-around;
