@@ -71,7 +71,6 @@ section#bloco-apresentação{
     width: 450px;
     height: 200px;
     background-color: var(--cor04);
-    padding-bottom: 30px;
     border-radius: 5px;
     box-shadow: 1px 1px 4px 0px;
     
@@ -116,7 +115,20 @@ section#bloco-apresentação{
 
 @media(max-width:470px){
     section#bloco-apresentação{
-        width: 300px;
+        width: 340px;
+        margin: auto;
+    }
+
+    .apresentação{
+        padding-bottom: 60px;
+    }
+
+    .apresentação  ul{
+        columns: 1;
+    }
+
+    #apresentação-lista{
+        padding-bottom: 140px;
     }
 }
 
@@ -185,6 +197,35 @@ div#imagem-03{
 .alinhamento-link:hover{
     color: black;
     background-color: var(--cor04);
+}
+
+@media(max-width:470px){
+    .estilo-imagem{
+        width: 330px;
+    }
+
+    .estilo-imagem h3{
+        padding-top: 165px;
+        font-size: 1.5em;
+    }
+
+    div#imagem-01{
+        background-image: url(imagens/imagem003-330.jpg);
+        width: 330px;
+        height: 195px;
+    }
+
+    div#imagem-02{
+        background-image: url(imagens/imagem001-330.jpg);
+        width: 330px;
+        height: 195px;
+    }
+
+    div#imagem-03{
+        background-image: url(imagens/imagem002-330.jpg);
+        width: 330px;
+        height: 195px;
+    }
 }
 
 footer{
