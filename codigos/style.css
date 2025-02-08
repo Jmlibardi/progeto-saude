@@ -120,7 +120,7 @@ section#bloco-apresentação{
     }
 
     .apresentação{
-        padding-bottom: 80px;
+       padding-bottom: 80px;
     }
 
     .apresentação  ul{
@@ -128,7 +128,7 @@ section#bloco-apresentação{
     }
 
     #apresentação-lista{
-        height: 280px;
+        height: 285px;
     }
 }
 
